@@ -1,1 +1,168 @@
-<a href=""></a>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>楽天PointMall タイムスケジュール表</title>
+    <style>
+
+        body {
+            background-image: url("images/cake.gif");
+            background-repeat: repeat; 
+        }
+
+        .content {
+            align-content: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: pink;
+            padding:32px;
+        }
+
+        .timeline {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            /* または space-between, space-around など */
+            align-items: center;
+            /* または flex-start, flex-end など */
+            border-width: 1px;
+        }
+
+        .time {
+            flex: 1;
+            text-align: center;
+        }
+
+        .even_hours {
+            background-color: aliceblue;
+        }
+
+        .odd_hours {
+            background-color: darkgrey;
+        }
+
+
+        .task_line {
+            display: flex;
+        }
+
+        .task_link {
+            flex: 1;
+            text-align: center;
+        }
+
+        /** 時間ごと背景色 */
+
+        .am
+        {
+            background-color: steelblue;
+        }
+
+        .pm
+        {
+            background-color: sandybrown;
+        }
+
+        .all_day
+        {
+            background-color: skyblue;
+        }
+
+        .morning
+        {
+            background-color: mediumvioletred;
+        }
+
+        .noon
+        {
+            background-color: wheat;
+        }
+
+        .evening
+        {
+            background-color: mediumpurple;
+        }
+
+        .evening
+        {
+            background-color: mediumblue;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        <a href="https://pointmall.rakuten.co.jp/" target="_blank">楽天PointMall</a>
+    </h1>
+
+    <div class="content">
+
+        <div class="timeline">
+            <div class="time even_hours">0:00</div>
+            <div class="time odd_hours">1:00</div>
+            <div class="time even_hours">2:00</div>
+            <div class="time odd_hours">3:00</div>
+            <div class="time even_hours">4:00</div>
+            <div class="time odd_hours">5:00</div>
+            <div class="time even_hours">6:00</div>
+            <div class="time odd_hours">7:00</div>
+            <div class="time even_hours">8:00</div>
+            <div class="time odd_hours">9:00</div>
+            <div class="time even_hours">10:00</div>
+            <div class="time odd_hours">11:00</div>
+
+            <div class="time even_hours">12:00</div>
+            <div class="time odd_hours">13:00</div>
+            <div class="time even_hours">14:00</div>
+            <div class="time odd_hours">15:00</div>
+            <div class="time even_hours">16:00</div>
+            <div class="time odd_hours">17:00</div>
+            <div class="time even_hours">18:00</div>
+            <div class="time odd_hours">19:00</div>
+            <div class="time even_hours">20:00</div>
+            <div class="time odd_hours">21:00</div>
+            <div class="time even_hours">22:00</div>
+            <div class="time odd_hours">23:00</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link all_day">おみくじ</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link all_day">ガチャ</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link all_day">スクラッチ</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link all_day">ビンゴ</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link am">遺跡探検すごろく（午前）</div>
+            <div class="task_link pm">遺跡探検すごろく（午後）</div>
+        </div>
+
+        <div class="task_line">
+            <div class="task_link am">幻の海底神殿（午前）</div>
+            <div class="task_link pm">幻の海底神殿（午後）</div>
+        </div>
+        
+        <div class="task_line">
+            <div class="task_link all_day">たびろく</div>
+        </div>
+
+    </div><!-- content -->
+
+</body>
+
+</html>
