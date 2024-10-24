@@ -1,1 +1,351 @@
-<a href=""></a>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>楽天PointMall タイムスケジュール表</title>
+    <style>
+        body {
+            background-image: url("images/cake.gif");
+            background-repeat: repeat;
+        }
+
+        #header {
+            display: flex;
+            justify-content: center;
+            /* または space-between, space-around など */
+            align-items: center;
+            /* または flex-start, flex-end など */
+        }
+
+        #page_title {
+            text-align: center;
+            margin: 0px 16px;
+            padding : 8px;
+            font-size:xx-large;
+        }
+
+        #about
+        {
+            text-align: center;
+            margin: 0px 16px;
+            padding : 8px;
+            font-size:x-large;
+        }
+
+        #content {
+            /*
+            
+            width: 1400px;
+            max-width: 1400px;
+
+            */
+            align-content: center;
+            margin: 0 auto;
+            background-color: pink;
+        }
+
+        /* .timeline {
+            または space-between, space-around など
+            ;
+        } */
+
+        .time {
+            width: 24px;
+            text-align: center;
+        }
+
+
+        /*.task_line {
+            display: flex;
+        }*/
+
+        .task_title {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .task_link {
+            text-align: center;
+        }
+
+        /** 時間ごと背景色 */
+
+        .invalid {
+            background-color: black;
+            color: red;
+        }
+
+        .even {
+            background-color: palegreen;
+        }
+
+        .odd {
+            background-color: khaki;
+        }
+
+        .span_2h_1 {
+            background-color: palegreen;
+        }
+
+        .span_2h_2 {
+            background-color: khaki;
+        }
+
+        .am {
+            background-color: steelblue;
+        }
+
+        .pm {
+            background-color: sandybrown;
+        }
+
+        .all_day {
+            background-color: skyblue;
+        }
+
+        .morning {
+            background-color: mediumvioletred;
+        }
+
+        .noon {
+            background-color: wheat;
+        }
+
+        .evening {
+            background-color: mediumpurple;
+        }
+
+        .evening {
+            background-color: mediumblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="page_title">
+            <a href="https://pointmall.rakuten.co.jp/" target="_blank">楽天PointMall</a>
+        </div>
+        <div id="about">
+            <a href="" target="_blank"
+            title="何があっても自己責任で使え。俺になんか言われても知らん">注意書き
+        </a>
+        </div>
+    </div>
+
+    <table id="content">
+        <tr class="timeline">
+            <td class="time even">0</td>
+            <td class="time odd">1</td>
+            <td class="time even">2</td>
+            <td class="time odd">3</td>
+            <td class="time even">4</td>
+            <td class="time odd">5</td>
+            <td class="time even">6</td>
+            <td class="time odd">7</td>
+            <td class="time even">8</td>
+            <td class="time odd">9</td>
+            <td class="time even">10</td>
+            <td class="time odd">11</td>
+
+            <td class="time even">12</td>
+            <td class="time odd">13</td>
+            <td class="time even">14</td>
+            <td class="time odd">15</td>
+            <td class="time even">16</td>
+            <td class="time odd">17</td>
+            <td class="time even">18</td>
+            <td class="time odd">19</td>
+            <td class="time even">20</td>
+            <td class="time odd">21</td>
+            <td class="time even">22</td>
+            <td class="time odd">23</td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_title" colspan="24">未分類</td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a href="https://pointmall.rakuten.co.jp/omikuji"
+                    target="_blank">おみくじ</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_title" colspan="24">基本ゲーム</td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a href="https://pointmall.rakuten.co.jp/gacha"
+                    target="_blank">ガチャ</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a href="https://pointmall.rakuten.co.jp/scratch"
+                    target="_blank">スクラッチ</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a href="https://pointmall.rakuten.co.jp/janken"
+                    target="_blank">じゃんけん</a></td>
+        </tr>
+
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a href="" target="_blank">ビンゴ</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.wamgame.jp/whack/top"
+                    target="_blank">もぐら</a></td>
+
+
+        <tr class="task_line">
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_1" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+            <td class="task_link span_2h_2" colspan="2"><a href="https://rakuten.dropgame.jp/drop/play/top"
+                    target="_blank">貝集め</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link am" colspan="12"><a href="https://toripop.placehub.co/top0"
+                    target="_blank">海底神殿(午前)</a></td>
+            <td class="task_link pm" colspan="12"><a href="https://toripop.placehub.co/top0"
+                    target="_blank">海底神殿(午後)</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link morning" colspan="8"><a href="https://pointmall.rakuten.co.jp/game/quiz"
+                    target="_blank">クイズ(朝)</a></td>
+            <td class="task_link noon" colspan="8"><a href="https://pointmall.rakuten.co.jp/game/quiz"
+                    target="_blank">クイズ(昼)</a></td>
+            <td class="task_link evening" colspan="8"><a href="https://pointmall.rakuten.co.jp/game/quiz"
+                    target="_blank">クイズ(夜)</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a
+                    href="https://general.game.pointmall.rakuten.net/sugoroku?media_id=106" target="_blank">たびろく</a>
+            </td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24"><a
+                    href="https://general.game.pointmall.rakuten.net/puzzle?media_id=106" target="_blank">3matchパズル</a>
+            </td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_title" colspan="24">遺跡すごろく</td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link am" colspan="12"><a href="https://rakuten.gamefactory.jp/game"
+                    target="_blank">遺跡すごろく(午前)</a></td>
+            <td class="task_link pm" colspan="12"><a href="https://rakuten.gamefactory.jp/game"
+                    target="_blank">遺跡すごろく(午後)</a></td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_title" colspan="24">
+                <a href="https://rakuten.gamefactory.jp/ssp" target="_blank">
+                    遺跡探検用ジュエル集めゲーム一覧</a>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link invalid" colspan="2">死</td>
+            <td class="task_link morning" colspan="6">
+                <a href="http://st01.bridalgown.work/numbers/entry.php" target="_blank">
+                    NunbersDX(朝)
+                </a>
+            </td>
+            <td class="task_link noon" colspan="8">
+                <a href="http://st01.bridalgown.work/numbers/entry.php" target="_blank">
+                    NunbersDX(昼)
+                </a>
+            </td>
+            <td class="task_link evening" colspan="8">
+                <a href="http://st01.bridalgown.work/numbers/entry.php" target="_blank">
+                    NunbersDX(夜)
+                </a>
+            </td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24">
+                <a href="http://st02.flowerarrangement.work/silhouette/game.php?scd=a0a768fe2be80bdc8f398f525a93168e&x=235&y=26"
+                    target="_blank" title="遊ぶまでの遷移がクソだるいのでプレイ終わったらショートカットコマンドでタブを閉じろ（例:Braveならctrl + W)">
+                    シルエット当て
+                </a>
+            </td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24">
+                <a href="http://st04.bridalgown.work/tower/game.php?scd=7beb6b8f3ebb2673c85685dcfb675d10&x=229&y=40"
+                    target="_blank" title="遊ぶまでの遷移がクソだるいのでプレイ終わったらショートカットコマンドでタブを閉じろ（例:Braveならctrl + W)">
+                    タワー上り
+                </a>
+            </td>
+        </tr>
+
+        <tr class="task_line">
+            <td class="task_link all_day" colspan="24">
+                <a href="http://st05.weddinghall.work/sushi/game.php?scd=bf53b9ffe0d601652a5e2a1ba77df5a2&x=142&y=66"
+                    target="_blank" 
+                    title="遊ぶまでの遷移がクソだるいのでプレイ終わったらショートカットコマンドでタブを閉じろ（例:Braveならctrl + W)">
+                    寿司
+                </a>
+            </td>
+        </tr>
+
+
+    </table><!-- content -->
+
+</body>
+
+</html>
